@@ -28,6 +28,8 @@ section{
     height: 70px;
 }
 .titulo{
+    
+    font-family: 'Ubuntu', sans-serif;
     height: calc(100% - 70px);
     
     display: flex;
@@ -36,4 +38,13 @@ section{
     color: rgb(28, 168, 168);
   
     font-size: 80px;
+}
+nav a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color: white;
+
+}
+.subtitulo{
+    font-family: 'Roboto', sans-serif;
 }
