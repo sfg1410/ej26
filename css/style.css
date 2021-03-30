@@ -44,7 +44,7 @@ section{
 /* .titulo:hover{
     
     /* border: 1px solid black; */
-} */
+
 .cajatitulo{
     width: 60%;
     padding: 10px;
@@ -82,9 +82,7 @@ header{
     width: 60px;
     fill: white;
 }
-.subtitulo{
-    
-}
+
 .boton{
     display: flex;
     justify-content: center;
