@@ -67,9 +67,9 @@ nav a:hover{
     text-shadow: 0px 0px 20px rgb(81, 245, 245);
     color: rgb(83, 80, 80);
 }
-p:hover{
+/* p:hover{
     text-shadow: 0px 0px 20px rgb(81, 245, 245);
-}
+} */
 header{
     background-color: rgba(255, 255, 255, 0.2);
     /* border-bottom: 1px solid rgb(16, 245, 233); */
@@ -199,9 +199,63 @@ transform: rotate(30deg);
 }
 .blanco{
     color: white;
+    text-shadow: 4px 3px 0px #7A7A7A, 10px 9px 10px #CE5937;
 }
 .cajaArtista{
-    border: 1px solid white;
-    height: 250px;
+    transition: all 0.2s ease-in;
+    /* border: 1px solid white; */
+    height: 260px;
     width: 22%;
+    background-color: white;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 10px 20px 10px 20px;
+}
+.cajaArtista img{
+    position: absolute;
+    top:-60px;
+    left: 28%;
+    border-radius: 100%;
+    /* border: 2px solid white; */
+}
+.detalleartista{
+
+    color: rgb(0, 0, 0);
+    padding: 0px 10px;
+    padding-top: 80px;
+     
+    
+}
+.detalleartista h4{
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.detalleartista p{
+    font-size: .9em;
+    margin-top: 10px;
+    font-family: 'roboto', sans-serif;
+    text-align: justify;
+
+}
+.negro{
+    color: black;
+    font-size: 25px;
+    position: absolute;
+   
+
+}
+.abajo{
+    position: bottom;
+    bottom: 0px;
+    
+
+}
+.cajaArtista:hover{
+    transform: translateY(-10px);
+    box-shadow: 14px 21px 39px 13px rgba(0,0,0,0.75);
+    background-color: rgba(179, 105, 248, 0.945);
+    
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
 }
