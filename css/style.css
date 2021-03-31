@@ -194,3 +194,14 @@ height: 100%;
 transform: rotate(30deg);
 
 }
+#participantes{
+    background-image: url(../fondoMusica.jpg);
+}
+.blanco{
+    color: white;
+}
+.cajaArtista{
+    border: 1px solid white;
+    height: 250px;
+    width: 22%;
+}
